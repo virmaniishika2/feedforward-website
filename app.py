@@ -3,7 +3,6 @@ from flask_mysqldb import MySQL
 from werkzeug.utils import secure_filename
 import os
 from math import radians, cos, sin, asin, sqrt
-
 app = Flask(__name__)
 app.secret_key = "supersecretkey123"
 
